@@ -250,6 +250,13 @@ footer{background:var(--navy-2);border-top:1px solid var(--glass-border);padding
   .trust-inner{gap:24px}
   .subscribe-form{flex-direction:column}
   .hero-stats{gap:0;flex-wrap:wrap}
+}.logo-img,
+.hero-logo,
+.footer-logo,
+.section-logo {
+  height: 45px;
+  width: auto;
+  object-fit: contain;
 }
 </style>
 </head>
@@ -260,17 +267,9 @@ footer{background:var(--navy-2);border-top:1px solid var(--glass-border);padding
 <!-- NAVBAR -->
 <nav id="navbar">
   <div class="nav-inner">
-    <a href="#" class="nav-logo">
-      <div class="nav-logo-mark">
-        <svg viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <circle cx="9" cy="9" r="7" stroke="#00c9a7" stroke-width="1.2"/>
-          <path d="M5 9 Q9 3 13 9 Q9 15 5 9Z" fill="#00c9a7" opacity=".8"/>
-        </svg>
-      </div>
-      <div class="nav-logo-text">
-        <span>MindBody-Synergy</span>
-        <span>Unlock Your Potential</span>
-      </div>
+     <a href="#" class="logo">
+      <img src="assets/logo.png" alt="MindBody Synergy Logo" class="logo-img" />
+      <span>MindBody <em>Synergy</em></span>
     </a>
     <ul class="nav-links">
       <li><a href="#about">About</a></li>
@@ -600,15 +599,10 @@ footer{background:var(--navy-2);border-top:1px solid var(--glass-border);padding
   <div class="container">
     <div class="footer-grid">
       <div class="footer-brand">
-        <a href="#" class="nav-logo" style="text-decoration:none">
-          <div class="nav-logo-mark">
-            <svg viewBox="0 0 18 18" fill="none"><circle cx="9" cy="9" r="7" stroke="#00c9a7" stroke-width="1.2"/><path d="M5 9 Q9 3 13 9 Q9 15 5 9Z" fill="#00c9a7" opacity=".8"/></svg>
-          </div>
-          <div class="nav-logo-text">
-            <span>MindBody-Synergy</span>
-            <span>Unlock Your Potential</span>
-          </div>
-        </a>
+         <a href="#" class="logo">
+      <img src="assets/logo.png" alt="MindBody Synergy Logo" class="logo-img" />
+      <span>MindBody <em>Synergy</em></span>
+    </a>
         <p>Clinically proven kinesiology for your mind, body, biochemical, and energetic health. Serving clients worldwide.</p>
         <div class="footer-social">
           <div class="social-btn">f</div>
@@ -647,7 +641,7 @@ footer{background:var(--navy-2);border-top:1px solid var(--glass-border);padding
       </div>
     </div>
     <div class="footer-bottom">
-      <div class="footer-copy">&copy; 2025 MindBody-Synergy. All rights reserved.</div>
+      <div class="footer-copy">&copy; 2026 MindBody-Synergy. All rights reserved.</div>
       <div class="footer-badge">Premium Wellness</div>
     </div>
   </div>

@@ -28,7 +28,14 @@
   --container:   1180px;
   --transition:  0.35s cubic-bezier(0.4, 0, 0.2, 1);
 }
-
+.logo-img,
+.hero-logo,
+.footer-logo,
+.section-logo {
+  height: 45px;
+  width: auto;
+  object-fit: contain;
+}
 /* ── Reset & Base ─────────────────────────────────────────── */
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
