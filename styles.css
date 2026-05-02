@@ -32,9 +32,9 @@
 .hero-logo,
 .footer-logo,
 .section-logo {
-  height: 45px;
-  width: 100px;
-  object-fit: contain;
+ height: auto;
+    width: 200px;
+    object-fit: cover;
 }
 /* ── Reset & Base ─────────────────────────────────────────── */
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
